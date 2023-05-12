@@ -1,146 +1,159 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mail Template</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <!-- font awesome link -->
-    <script src="https://kit.fontawesome.com/2be53f5621.js" crossorigin="anonymous"></script>
-    <!-- external link -->
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav class="navbar ">
-        <div class="container-fluid" >
-        
-          <a class="navbar-brand txt-color"><img class="p-1" src="/bvt_module_1/bootstrap/img/gmail_icon.png " alt=""width ="30" >My Email</a>
-          <form class="d-flex" role="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input class="form-control " type="search" placeholder="" aria-label="Search">
-           
-          </form>
-        </div>
-      </nav>
-      <div class="container-fluid">
-        <div class="row">
-            <!-- first col -->
-            <div class="  col-sm-12 col-md-6 col-lg-2 col1 border d-none d-md-block">
-                <div class="row flex-column m-1  ">
-                    <!-- folder btn, used bootstrap class -->
-                    <button type="button" class="btn btn-primary p-3 mt-3 d-1 compose-btn">
-                        <img class="p-1" src="/bvt_module_1/bootstrap/img/compose.png " alt=""width ="40" >Compose
-                    
-                    </button>
 
-                    <button type="button" class="btn btn-primary  mt-4 folderBtn"> 
-                        <img class=" p-1" src="../bvt_module_1/bootstrap/img/send.png " alt=""width ="25" >Inbox
-                    </button>
-                    <button type="button" class="btn btn-primary  mt-3 folderBtn ">
-                        <img class="p-1" src="/bvt_module_1/bootstrap/img/important.png " alt=""width ="25" >Spam
-                        
-                    </button>
-                    <button type="button" class="btn btn-primary  mt-3  folderBtn">
-                        <img class=" p-1" src="/bvt_module_1/bootstrap/img/sent.png " alt=""width ="25" >Sent
-                       
-                    </button>
-                    <button type="button" class="btn btn-primary  mt-3 folderBtn">
-                        <img class=" p-1" src="/bvt_module_1/bootstrap/img/draft.png " alt=""width ="25" >Draft
-                       
-                    </button>
-                    <button type="button" class="btn btn-primary  mt-3  folderBtn">
-                        <img class=" p-1" src="/bvt_module_1/bootstrap/img/trash.png " alt=""width ="25" >Trash
-                        
-                    </button>
-                   
-                </div>
-            </div>
-            <!-- second col -->
-            <div class=" col-sm-12 col-md-6 col-lg-6 col2  border ">
-                <div class="row flex-column m-1 ">
-                    <div class=" m-1  p-1 ">
-                        <p class="mail-list p-2 rounded"><span class="mail-sender">Discord </span>  xyz mentioned you in BVT <span class="senderDate">March 1</span> </p>
-                    </div>
-                   
-                    <div class=" m-1  p-1" >
-                        <p class="mail-list p-2 rounded"><span class="mail-sender"> Alex  </span>  New materiel:week 6 <span class="senderDate">April 30 1</span></p>
-                    </div>
-                    
-                    <div class="  m-1  p-1">
-                        <p class="mail-list p-2 rounded"><span class="mail-sender">Clockify</span>   clockify weekly report<span class="senderDate">May 1</span></p>
-                    </div>
-                   
-                    <div class=" m-1  p-1 ">
-                        <p class="mail-list p-2 rounded"><span class="mail-sender">WordPress</span>claim your free domain <span class="senderDate">May 5</span></p>
-                    </div>
-                    
-                    <div class=" m-1  p-1" >
-                        <p class="mail-list p-2 rounded"><span class="mail-sender">xfinity</span>your bill is ready to view <span class="senderDate">May 10</span></p>
-                    </div>
-                    
-                    <div class=" m-1  p-1" >
-                        <p class="mail-list p-2 rounded"><span class="mail-sender">LinkedIn </span> your application is sent  <span class="senderDate">May 12</span></p>
-                    </div>
-                    
-                    <div class=" m-1  p-1" >
-                        <p class="mail-list p-2 rounded"><span class="mail-sender">Discord </span> xyz mentioned you in BVT <span class="senderDate">May 15</span></p>
-                    </div>
-                    <div class=" m-1  p-1" >
-                        <p class="mail-list p-2 rounded"><span class="mail-sender">Discord </span>  xyz mentioned you in BVT  <span class="senderDate">May 20 </span></p>
-                    </div>
-                    <div class=" m-1  p-1" >
-                        <p class="mail-list p-2 rounded"><span class="mail-sender">Discord </span>  xyz mentioned you in BVT  <span class="senderDate">may 25</span></p>
-                    </div>
-                   
-                </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mail Template</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/2be53f5621.js" crossorigin="anonymous"></script>
+  <!-- external link -->
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+  <nav class="navbar ">
+    <div class="container-fluid">
 
-            </div>
-            <!-- third col  compose section-->
-            <div class=" col-sm-12 col-md-12 col-lg-4 col3  border d-none d-md-block ">
-                <!-- new message btn -->
-              <div class="row">
-                <div class="mb-5">
-                    <button class="btn btn-primary w-100 newMessageBtn">New Message</button>
-                </div>
-              </div>
-             
-              <form>
-              <!-- email to and email subject input -->
-                <div class="mb-3">
-                   
-                    <input type="email" id="disabledTextInput" class="form-control composeInput" placeholder="To">
-                  </div>
-                  <div class="mb-3">
-                   
-                    <input type="text" id="disabledTextInput" class="form-control composeInput" placeholder="Subject:">
-                  </div>
-                  <div class="form-floating">
-                    <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 200px"></textarea>
-                    
-                  </div>
-                  <div class=" ">
-                    <button class="btn undoRedo w-100">
-                        <img class=" p-1" src="/bvt_module_1/bootstrap/img/undo.png " alt=""width ="30">
-                        <img class=" p-1" src="/bvt_module_1/bootstrap/img/rdo.png " alt=""width ="30">
-                    </button>
-                </div>
-                <div class="">
-                    <button class="btn btn-primary w-100 attach-trashBtn ">
-                       <input class="my-sendBtn" type="button" value="send">
-                       <img class=" p-1" src="/bvt_module_1/bootstrap/img/attach.png " alt=""width ="30">
-                        <img class=" p-1" src="/bvt_module_1/bootstrap/img/trash.png " alt=""width ="30">
+      <a class="navbar-brand txt-color"><img class="p-1" src="/bvt_module_1/bootstrap/img/gmail_icon.png " alt=""
+          width="30">My Email</a>
+      <form class="d-flex" role="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="form-control " type="search" placeholder="" aria-label="Search">
 
-                    </button>
-                </div>
-              </form>
+      </form>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- first col -->
+      <div class="  col-sm-12 col-md-6 col-lg-2 col1 border d-none d-md-block">
+        <div class="row flex-column m-1  ">
+          <!-- folder btn, used bootstrap class -->
+          <button type="button" class="btn btn-primary p-3 mt-3 d-1 compose-btn">
+            <img class="p-1" src="/bvt_module_1/bootstrap/img/compose.png " alt="" width="40">Compose
 
+          </button>
 
-            
-            
+          <button type="button" class="btn btn-primary  mt-4 folderBtn">
+            <img class=" p-1" src="../bvt_module_1/bootstrap/img/send.png " alt="" width="25">Inbox
+          </button>
+          <button type="button" class="btn btn-primary  mt-3 folderBtn ">
+            <img class="p-1" src="/bvt_module_1/bootstrap/img/important.png " alt="" width="25">Spam
+
+          </button>
+          <button type="button" class="btn btn-primary  mt-3  folderBtn">
+            <img class=" p-1" src="/bvt_module_1/bootstrap/img/sent.png " alt="" width="25">Sent
+
+          </button>
+          <button type="button" class="btn btn-primary  mt-3 folderBtn">
+            <img class=" p-1" src="/bvt_module_1/bootstrap/img/draft.png " alt="" width="25">Draft
+
+          </button>
+          <button type="button" class="btn btn-primary  mt-3  folderBtn">
+            <img class=" p-1" src="/bvt_module_1/bootstrap/img/trash.png " alt="" width="25">Trash
+
+          </button>
+
         </div>
       </div>
-     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
+      <!-- second col -->
+      <div class=" col-sm-12 col-md-6 col-lg-6 col2  border ">
+        <div class="row flex-column m-1 ">
+          <div class=" m-1  p-1 ">
+            <p class="mail-list p-2 rounded"><span class="mail-sender">Discord </span> xyz mentioned you in BVT <span
+                class="senderDate">March 1</span> </p>
+          </div>
+
+          <div class=" m-1  p-1">
+            <p class="mail-list p-2 rounded"><span class="mail-sender"> Alex </span> New materiel:week 6 <span
+                class="senderDate">April 30 1</span></p>
+          </div>
+
+          <div class="  m-1  p-1">
+            <p class="mail-list p-2 rounded"><span class="mail-sender">Clockify</span> clockify weekly report<span
+                class="senderDate">May 1</span></p>
+          </div>
+
+          <div class=" m-1  p-1 ">
+            <p class="mail-list p-2 rounded"><span class="mail-sender">WordPress</span>claim your free domain <span
+                class="senderDate">May 5</span></p>
+          </div>
+
+          <div class=" m-1  p-1">
+            <p class="mail-list p-2 rounded"><span class="mail-sender">xfinity</span>your bill is ready to view <span
+                class="senderDate">May 10</span></p>
+          </div>
+
+          <div class=" m-1  p-1">
+            <p class="mail-list p-2 rounded"><span class="mail-sender">LinkedIn </span> your application is sent <span
+                class="senderDate">May 12</span></p>
+          </div>
+
+          <div class=" m-1  p-1">
+            <p class="mail-list p-2 rounded"><span class="mail-sender">Discord </span> xyz mentioned you in BVT <span
+                class="senderDate">May 15</span></p>
+          </div>
+          <div class=" m-1  p-1">
+            <p class="mail-list p-2 rounded"><span class="mail-sender">Discord </span> xyz mentioned you in BVT <span
+                class="senderDate">May 20 </span></p>
+          </div>
+          <div class=" m-1  p-1">
+            <p class="mail-list p-2 rounded"><span class="mail-sender">Discord </span> xyz mentioned you in BVT <span
+                class="senderDate">may 25</span></p>
+          </div>
+
+        </div>
+
+
+      </div>
+      <!-- third col  compose section-->
+      <div class=" col-sm-12 col-md-12 col-lg-4 col3  border d-none d-md-block ">
+        <!-- new message btn -->
+        <div class="row">
+          <div class="mb-5">
+            <button class="btn btn-primary w-100 newMessageBtn">New Message</button>
+          </div>
+        </div>
+
+        <form>
+          <!-- email To, email subject and text Area form input -->
+          <div class="mb-3">
+
+            <input type="email" id="disabledTextInput" class="form-control composeInput" placeholder="To">
+          </div>
+          <div class="mb-3">
+
+            <input type="text" id="disabledTextInput" class="form-control composeInput" placeholder="Subject:">
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 200px"></textarea>
+
+          </div>
+          <div class=" ">
+            <button class="btn undoRedo w-100">
+              <img class=" p-1" src="/bvt_module_1/bootstrap/img/undo.png " alt="" width="30">
+              <img class=" p-1" src="/bvt_module_1/bootstrap/img/rdo.png " alt="" width="30">
+            </button>
+          </div>
+          <div class="">
+            <button class="btn btn-primary w-100 attach-trashBtn ">
+              <input class="my-sendBtn" type="button" value="send">
+              <img class=" p-1" src="/bvt_module_1/bootstrap/img/attach.png " alt="" width="30">
+              <img class=" p-1" src="/bvt_module_1/bootstrap/img/trash.png " alt="" width="30">
+
+            </button>
+          </div>
+        </form>
+ </div>
+    </div>
+    <!-- bootstrap js link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
