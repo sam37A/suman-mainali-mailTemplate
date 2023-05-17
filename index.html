@@ -87,9 +87,9 @@
                 class="senderDate">May 10</span></p>
           </div>
 
-          <div class=" m-1  p-1">
-            <p class="mail-list p-2 rounded"><span class="mail-sender">LinkedIn </span> your application is sent <span
-                class="senderDate">May 12</span></p>
+          <div class=" m-1  p-1 ">
+            <p class="mail-list p-2 rounded active-mail"><span class="mail-sender">LinkedIn </span> your application is
+              sent <span class="senderDate">May 12</span></p>
           </div>
 
           <div class=" m-1  p-1">
@@ -112,14 +112,14 @@
       <!-- third col  compose section-->
       <div class=" col-sm-12 col-md-12 col-lg-4 col3  border d-none d-md-block ">
         <!-- new message btn -->
-        <div class="row">
+        <div class="row newMessage-btn">
           <div class="mb-5">
             <button class="btn btn-primary w-100 newMessageBtn">New Message</button>
           </div>
         </div>
 
-        <form>
-          <!-- email To, email subject and text Area form input -->
+        <form class="mycompose_form">
+          <!-- email To, email subject and text Area form input  for tab only-->
           <div class="mb-3">
 
             <input type="email" id="disabledTextInput" class="form-control composeInput" placeholder="To">
@@ -132,13 +132,13 @@
             <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 200px"></textarea>
 
           </div>
-          <div class=" ">
+          <div>
             <button class="btn undoRedo w-100">
               <img class=" p-1" src="/bvt_module_1/bootstrap/img/undo.png " alt="" width="30">
               <img class=" p-1" src="/bvt_module_1/bootstrap/img/rdo.png " alt="" width="30">
             </button>
           </div>
-          <div class="">
+          <div>
             <button class="btn btn-primary w-100 attach-trashBtn ">
               <input class="my-sendBtn" type="button" value="send">
               <img class=" p-1" src="/bvt_module_1/bootstrap/img/attach.png " alt="" width="30">
@@ -147,7 +147,29 @@
             </button>
           </div>
         </form>
- </div>
+
+        <!-- opened email content for the desktop only  -->
+        <div class="open-email-page">
+          <p class="email-to">To:example@gmail.com</p>
+          <p class="email-from ">From:jobs-noreply@linkedin.com</p>
+          <h3 class="email-subject"> Your application is Sent</h3>
+          <p class="email-text justify-content-center mt-3 text-justify">Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Quo eligendi enim esse voluptatum ducimus modi ut consectetur, optio ad delectus quos rem
+            rerum odit obcaecati amet porro minus repellendus pariatur!</p>
+
+          <div class="text-area">
+            <textarea class="mt-5  " name="" id="" cols="56" rows="8"></textarea>
+
+            <div class="attach-replybtn-box  d-flex justify-content-between ">
+              <img src="./img/attach.png" alt="">
+              <button class="btn btn-primary">Reply</button>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
     </div>
     <!-- bootstrap js link -->
 
