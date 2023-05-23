@@ -127,9 +127,14 @@ background-color: white;
         background-color: #f8e0e0;
     }
     .attach-replybtn-box{
-        position: relative;
-        bottom:50px;
+      
        
+    }
+    .text-area-box{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .compose-btn{
         background-color: #10cee7;
